@@ -1,0 +1,33 @@
+{
+    "name": "team-profile-generator",
+    "version": "1.0.0",
+    "description": "AS A manager I WANT to generate a webpage that displays my team's basic info SO THAT I have quick access to their emails and GitHub profiles",
+    "main": "index.js",
+    "scripts": {
+        "dev": "nodemon ./index.js",
+        "test": "jest"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/scottskinn/Team-Profile-Generator.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/scottskinn/Team-Profile-Generator/issues"
+    },
+    "homepage": "https://github.com/scottskinn/Team-Profile-Generator#readme",
+    "directories": {
+        "lib": "lib"
+    },
+    "keywords": [],
+    "devDependencies": {
+        "jest": "^27.0.6",
+        "nodemon": "^2.0.12"
+    },
+    "dependencies": {
+        "express": "^4.17.1",
+        "inquire": "^0.4.8",
+        "inquirer": "^8.1.2"
+    }
+}
