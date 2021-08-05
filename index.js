@@ -24,10 +24,10 @@ const Questions = [
     },
     {
         type: 'input',
-        name: 'managerId',
+        name: 'managerid',
         message: "What is the manager's ID?",
-        validate: (manId) => {
-            if (manId) {
+        validate: (managerd) => {
+            if (managerid) {
                 return true;
             } else {
                 console.log("Please enter the manager's ID!");
@@ -39,8 +39,8 @@ const Questions = [
         type: 'input',
         name: 'manageremail',
         message: "What is the manager's email address?",
-        validate: (manEmail) => {
-            if (manEmail) {
+        validate: (manageremail) => {
+            if (manageremail) {
                 return true;
             } else {
                 console.log("Please enter the manager's email address!");
@@ -137,7 +137,7 @@ const addEngineer = () => {
             return addEngineer();
         }
         else if (engineeranswers.employee === 'Intern') {
-            return addintern();
+            return addIntern();
         }
         else if (engineeranswers.employee === 'Done') {
             return;
@@ -146,7 +146,7 @@ const addEngineer = () => {
 };
 
 // Prompt to add Intern
-const addintern = () => {
+const addIntern = () => {
     return inquirer.prompt([
         {
             type: 'input',
@@ -163,7 +163,7 @@ const addintern = () => {
         },
         {
             type: 'input',
-            name: 'internId',
+            name: 'internid',
             message: "What is the intern's employee ID?",
             validate: (internid) => {
                 if (internid) {
@@ -209,7 +209,7 @@ const addintern = () => {
     ]).then(internanswers => {
         
         employees.push(new Intern(internanswers.internname, internanswers.internid, internanswers.internemail, internanswers.internschool));
-        if (intteranswers.employee === 'Engineer') {
+        if (internanswers.employee === 'Engineer') {
             return addengineer();
         }
         else if (internanswers.employee === 'Intern') {
