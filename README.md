@@ -41,8 +41,7 @@ ISC
 
 
 ## Mock Up   
-https://github.com/jlhickey/Note-Taker/blob/main/notes.mov 
-
+https://github.com/jlhickey/Team-Generator/blob/main/questions%20answered.mov
 
 
  
