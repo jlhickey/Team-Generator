@@ -1,5 +1,13 @@
 # Team Generator.  ![GitHub license](https://img.shields.io/badge/Made%20by-%40jlhickey-orange)![GitHub license](https://img.shields.io/badge/license-ISC-blue.svg)
 
+## Table of Contents
+1. [User Story](#UserStory)
+2. [Acceptance Criteria](#AcceptanceCriteria)
+3. [Installation](#Installation)
+5. [Liscence](#Liscence)
+6. [Mock Up](#MockUp)
+7. [Repositories](#Repositories)
+ 
 
 ## User Story
 
@@ -33,7 +41,6 @@ The apps used to run are
 * Node
 * Express
 * JS
-* Heroku
 
 
 ## Liscence
