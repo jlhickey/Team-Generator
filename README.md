@@ -53,7 +53,7 @@ https://github.com/jlhickey/Team-Generator/blob/main/questions%20answered.mov
 
  
 ## REPOSITORIES
-- Project Repo https://github.com/jlhickey/Team Generator
+- Project Repo https://github.com/jlhickey/Team-Generator
 - GitHub https://github.com/jlhickey
 
  
